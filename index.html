@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//nl" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html lang="en-ZA">
+
+<head>
+    <title>Visio | Dynamic Investment Management | Home</title>
+    <meta charset="UTF-8">
+    <meta id="Viewport" name="viewport"
+        content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes, width=465">
+    <title>Visio | Dynamic Investment Management | Home</title>
+ <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+   
+</head>
+
+<body class="home page-template page-template-front-page page-template-front-page-php page page-id-5">
+    <header class="site-header">
+        <div class="inner">
+            <a class="site-logo" title="Visio" href="https://visiofund.co.za">
+                <img src="./assets//Visio_2023__1_-removebg-preview.png" alt="Visio">
+            </a>
+            <div class="in-page-sub-menu">
+            </div>
+            <a class="open-main-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </header>
+   
+    <main class="home-page-container">
+        <section class="main-slider">
+            <div class="inner">
+                <a class="next-slide"></a>
+                <ul>
+                    <li class="active" rel="1">
+                        <h3>Look beyond the ordinary</h3>
+                        <img src="https://i.postimg.cc/dVP2w5dP/pexels-photo-417074.jpg" />
+                    </li>
+                    <li class="next" rel="2">
+                        <h3>Look beyond the ordinary</h3>
+                        <img src="https://i.postimg.cc/bNLwyTsV/telkwa-mountains-bc-canada-spring-near-smithers-along-highway-tears-displayed-beautiful-early-evenin.webp" />
+                    </li>
+                    <li class="next" rel="3">
+                        <h3>Look beyond the ordinary</h3>
+                        <img src="https://i.postimg.cc/bNLwyTsV/telkwa-mountains-bc-canada-spring-near-smithers-along-highway-tears-displayed-beautiful-early-evenin.webp" />
+                    </li>
+                </ul>
+              
+                <div class="pagination">
+                    <span class="active" rel="1"></span>
+                    <span class="" rel="2"></span>
+                    <span class="" rel="3"></span>
+                </div>
+            </div>
+        </section>
+        <section class="home-intro">
+            <div class="inner">
+                <p>
+                    Visio is an investment management firm initially founded by Patrice Moyal in 2003. The nimble,
+                    highly focused and dynamic team manage assets across listed strategies for a diversified client base
+                    that includes some of the world’s largest and most sophisticated investors. </p>
+                <div class="animate-logo"></div>
+            </div>
+        </section>
+        <section class="home-ctas">
+            <div class="inner">
+                <ul class="cta-blocks">
+                    <li>
+                        <a class="ancer" rel="visio-difference" href="https://visiofund.co.za/who-we-are/"
+                            title="The Visio difference">
+                            <span>
+                                The Visio<br /> difference
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="ancer" rel="visio-team" href="https://visiofund.co.za/who-we-are/"
+                            title="Meet the Visio team">
+                            <span>
+                                Meet the<br /> Visio team
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://visiofund.co.za/our-funds/" title="Our funds and investments">
+                            <span>
+                                Our funds<br /> and investments
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sub-links">
+                    <li>
+                        <a href="https://visiofund.co.za/our-funds/hedge-funds/" title="Hedge Funds">Hedge Funds</a>
+                    </li>
+                    <li>
+                        <a href="https://visiofund.co.za/our-funds/unit-trust/" title="Unit Trusts">Unit Trusts</a>
+                    </li>
+                    <li>
+                        <a href="https://visiofund.co.za/our-funds/segregated-mandates/"
+                            title="Segregated Mandates">Segregated Mandates</a>
+                    </li>
+                    <li>
+                        <a href="https://visiofund.co.za/our-funds/" title="Africa Funds">Africa Funds</a>
+                    </li>
+                    <li>
+                        <a href="https://visiofund.co.za/who-we-are/" title="Fund Performance">Fund Performance</a>
+                    </li>
+                    <li>
+                        <a class="ancer" rel="risk-management" href="https://visiofund.co.za/who-we-are/"
+                            title="Risk Management">Risk Management</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <script>
+        jQuery(function () {
+            var $ = jQuery;
+            var animat = true;
+
+            $('.ancer').on('click', function (e) {
+                e.preventDefault()
+                sessionStorage.setItem('subMenu', $(this).attr('rel'));
+                window.location = $(this).attr('href');
+
+            });
+
+            $('.main-slider').on('click', '.next-slide', function () {
+                if (animat) {
+                    animat = false;
+                    if ($('.main-slider').find('.active').next().next().length > 0) {
+                        $('.main-slider').find('li:first-child').addClass('next').removeClass('prev');
+                    }
+
+                    if ($('.main-slider').find('.active').next().length > 0) {
+                        $('.main-slider').find('.active').removeClass('next active').addClass('prev').next().removeClass('next').addClass('active').nextAll().removeClass('prev').addClass('next');
+                    } else {
+                        $('.main-slider').find('li:first-child').addClass('active').removeClass('next prev').nextAll().removeClass('prev active').addClass('next');
+                        $('.main-slider').find('li:last-child').removeClass('next').addClass('prev');
+                    }
+
+                    if ($('.main-slider').find('.active').next().length == 0) {
+                        $('.main-slider').find('li:first-child').addClass('next').removeClass('prev');
+                    }
+
+                    $('.main-slider').find('.pagination span[rel="' + $('.main-slider').find('.active').attr('rel') + '"]').addClass('active').siblings().removeClass('active');
+
+                }
+                window.setTimeout(function () {
+                    animat = true;
+                }, 1200)
+
+            });
+
+        });
+    </script>
+
+    <script>
+        jQuery(document).ready(function () {
+            var $ = jQuery;
+
+            $('.back-to-top').on('click', function () {
+                $('html, body').animate({ scrollTop: 0 }, 500);
+            });
+        });
+    </script>
+   
+</body>
+
+</html>
