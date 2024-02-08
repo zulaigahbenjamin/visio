@@ -1,44 +1,18 @@
-.home-ctas .inner .sub-links li a:hover {
-    background-color: #061C2C;
+.home-ctas {
+    padding: 0 20px;
+    margin-bottom: 110px;
 }
-.home-ctas .inner .sub-links li a {
-    display: block;
-    height: 38px;
-    line-height: 38px;
-    padding: 0 17px;
-    background-color: #244AC2;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    background-position: right 15px center;
-    background-repeat: no-repeat;
-    background-image: url(./assets//arrow\ thiing.svg);
+
+.home-ctas .inner {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
 }
-.home-ctas .inner .cta-blocks li a {
-    display: block;
-    height: 100%;
-    background-color: #061C2C;
-    position: relative;
-    padding: 98px 0 0 32px;
-    background-image: url(./assets/arrow\ thiing.svg);
-    background-repeat: no-repeat;
-    background-position: top 31px left 32px;
-    color: #fff;
-    text-decoration: none;
-}
-.home-ctas .inner .sub-links {
-    display: block;
-    margin: 0 -12px;
-    padding: 0;
-    overflow: hidden;
-}
-@media (max-width: 1435px) {
-.home-ctas .inner .sub-links li {
-    width: 33.333333%;
-    margin-bottom: 24px;
-}
+
+* {
+    box-sizing: border-box;
+    transition: 0.1s;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .home-ctas .inner .sub-links li {
@@ -48,30 +22,14 @@
     width: 16.6666666%;
     padding: 0 12px;
 }
-* {
-    box-sizing: border-box;
-    transition: 0.1s;
-    font-family: 'Open Sans', sans-serif;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
 
-ul {
-    list-style-type: disc;
-}
-.home-ctas .inner {
-    max-width: 1500px;
-    width: 100%;
-    margin: 0 auto;
-}
 .home-ctas .inner .cta-blocks {
     margin: 0 -12px 48px;
     padding: 0;
     display: block;
     height: 200px;
 }
+
 .home-ctas .inner .cta-blocks li {
     float: left;
     width: 33.33333%;
@@ -80,11 +38,82 @@ ul {
     height: 200px;
     display: inline;
 }
-.main-slider .inner ul li.active h3 {
-    left: 0;
-    transition-property: left;
-    transition-duration: 0.6s;
-    transition-delay: 0.6s;
+
+.home-ctas .inner .cta-blocks li a {
+    display: block;
+    height: 100%;
+    background-color: #061C2C;
+    position: relative;
+    padding: 98px 0 0 32px;
+    background-image: url(./assets/asset2sssssssssssssssssssssss.svg);
+    background-repeat: no-repeat;
+    background-position: top 31px left 32px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-ctas .inner .cta-blocks li a span {
+    font-size: 32px;
+    line-height: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.home-intro .inner p {
+    width: 60%;
+    display: block;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #061C2C;
+    float: left;
+    margin-top: 20px;
+}
+
+/*smaller-blocks*/
+.home-ctas .inner .sub-links li a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 17px;
+    background-color: #244AC2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/asset33333333333333333.svg);
+}
+
+.home-ctas .inner .sub-links {
+    display: block;
+    margin: 0 -12px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.inside {
+    display: flex;
+    width: 76%;
+    margin-left: 113px;
+    font-size: 24px;
+}
+
+img.weird-pics {
+    margin-left: 41%;
+    margin-top: 32px;
+}
+
+
+.home-intro {
+    margin-bottom: 52px;
+    margin-top: 42px;
+}
+
+.net {
+    width: 97%;
 }
 
 .main-slider .inner ul li h3 {
@@ -105,20 +134,362 @@ ul {
     transition-property: left;
     transition-duration: 0.6s;
 }
-.main-slider .inner ul li.active {
-    position: relative;
-    left: 0;
-    transition: 1s;
-    z-index: 8;
-}
-.main-slider .inner ul li {
-    height: 100%;
-    width: 100%;
-    display: block;
-    margin: 0;
-    padding: 0;
+
+.main-slider .inner>.next-slide {
     position: absolute;
-    top: 0;
+    z-index: 20;
+    width: 101px;
+    height: 118px;
+    display: block;
+    background-image: url(./assets/slider-next\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    top: 50%;
+    right: 0;
+    margin-top: -59px;
+    cursor: pointer;
+}
+
+
+
+
+.slider-inner {
+    width: 90%;
+    height: 500px;
     overflow: hidden;
-    transition: 1s;
+    position: relative;
+    padding: 3px;
+    margin: 0 70px;
+}
+
+.slider-inner img {
+    display: none;
+    width: 92.8%;
+    height: 600px;
+    margin-left: 65px;
+}
+
+.slider-inner img.active {
+    display: inline-block;
+}
+
+.next {
+    height: 100px;
+    width: 79px;
+    cursor: pointer;
+    position: absolute;
+    left: 89%;
+    top: 40%;
+    z-index: 50;
+}
+
+.next-one {
+    height: 100px;
+    width: 83px;
+    cursor: pointer;
+    position: absolute;
+    left: 95%;
+    top: 22%;
+    z-index: 50;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 104.9%;
+    margin-left: -33px;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+img {
+
+    height: auto;
+    display: block;
+}
+
+.pagination {
+    position: absolute;
+    display: block;
+    bottom: 252px;
+    right: 215px;
+    top: 441px;
+    z-index: 10;
+    text-align: center;
+}
+
+.pagination span.active {
+    opacity: 0.39;
+    transform: rotate(160deg);
+}
+
+.pagination span {
+    background-image: url(./assets/slider-dots\ \(1\).svg);
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 1px;
+}
+
+img.sitelogo {
+    width: 15%;
+    margin-left: 91px;
+}
+
+.logobutton {
+    float: right;
+    margin-right: 112px;
+    margin-top: -80px;
+}
+
+.slider-inner {
+    width: 90%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    padding: 3px;
+    margin: 0 70px;
+}
+
+.slider-inner img {
+    display: none;
+    width: 92.8%;
+    height: 600px;
+    margin-left: 65px;
+}
+
+.slider-inner img.active {
+    display: inline-block;
+}
+
+.blue-banner {
+    top: 54%;
+    margin-top: -60px;
+    height: 50px;
+    padding: 5px;
+    position: absolute;
+    background-color: #244AC2;
+    display: block;
+    padding-left: 120px;
+    padding-right: 100px;
+    color: #fff;
+    margin-left: 34px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.black-banner {
+    background-color: #000;
+    height: 58px;
+    width: 219px;
+    position: absolute;
+    top: 46.6%;
+    right: 21px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .home-intro .inner {
+        display: flex;
+        /* Use flexbox to align items */
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center align items horizontally */
+    }
+
+    .home-intro .inner p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+
+    .home-intro .weird-pic {
+        margin-top: 201%;
+        margin-left: -410px;
+        width: 159%;
+    }
+
+    img.weird-pics {
+        width: 340px;
+    }
+
+    .inside {
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
+    .slider-inner img.active {
+        display: inline-block;
+        width: 340px;
+    }
+
+    .black-banner {
+        display: block;
+    }
+
+    .slider {
+        width: 516px;
+        margin-left: -121px;
+    }
+
+    .pagination span {
+        display: none;
+    }
+
+    .blue-banner p {
+        width: -1rem;
+        font-size: small;
+        padding-left: -10px;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 400px) {
+    .home-ctas .inner {
+        padding: 0 10px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .home-ctas .inner .cta-blocks {
+        margin-bottom: 20px;
+        /* Decrease margin between blocks */
+    }
+
+    .home-ctas .inner .cta-blocks li {
+        width: 100%;
+        /* Make each block take full width */
+        margin-bottom: 20px;
+        /* Add space between blocks */
+    }
+
+    .cta-blocks span {
+        padding-top: 20px;
+    }
+
+    .home-ctas .inner .cta-blocks li a {
+        padding: 20px 0;
+        /* Adjust padding for smaller screens */
+        text-align: center;
+        /* Center align text */
+    }
+
+    .home-ctas .inner .sub-links {
+        margin-top: 20px;
+        /* Add space between blocks */
+    }
+    .li span  {
+     margin-top:20px;
+    }
+    .home-ctas .inner .sub-links li {
+        width: 50%;
+        /* Make each link take half width */
+        margin-bottom: 10px;
+        /* Add space between links */
+    }
+
+    .inside {
+        width: 43%;
+        /* Make content take full width */
+
+    }
+
+    img.weird-pics {
+        margin-left: 121px;
+        display: block;
+        margin-top: 89px;
+        width: 236px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1080px) and (max-width:1100px) {
+    /* .inside {
+        margin-left: 81px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        width: 100%;
+    } */
+
+    img.weird-pics {
+        margin-top: 32px;
+        margin-left: 17%;
+    }
+
+    .home-ctas .inner {
+        width: 88%;
+        margin-left: 86px;
+    }
+}
+
+@media screen and (min-width:1101px) and (max-width:1200px) {
+    img.weird-pics {
+        margin-top: 32px;
+        margin-left: 17%;
+    }
+
+    .home-ctas .inner {
+        width: 88%;
+        margin-left: 86px;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width:1300px) {
+    img.weird-pics {
+        margin-top: 32px;
+        margin-left: 17%;
+    }
+
+    .home-ctas .inner {
+        width: 89.5%;
+        margin-left: 86px;
+    }
+}
+
+@media screen and (min-width:1301px) and (max-width:1400px) {
+    img.weird-pics {
+        margin-top: 32px;
+        margin-left: 31%;
+    }
+
+    .home-ctas .inner {
+        width: 89.5%;
+        margin-left: 86px;
+    }
+}
+
+@media screen and (min-width:1401px) and (max-width:1800px) {
+    img.weird-pics {
+        margin-top: 32px;
+        margin-left: 31%;
+    }
+
+    .home-ctas .inner {
+        width: 89.5%;
+        margin-left: 86px;
+    }
 }
