@@ -701,6 +701,28 @@ img.sitelogo {
         margin-left: 86px;
     }
 }
+@media screen and (min-width:857px) and (max-width:860px) {
+    .inside{
+        display:flex;
+        flex-direction: column;
+    }
+    /*this one */
+    .next{
+        margin-left:-20px;
+        width:50px;
+    }
+    .pagination {
+        margin-right: -85px;
+        
+    }
+    .home-ctas .inner .cta-blocks li a span {
+        font-size: 24px;
+    }
+}
+
+
+
+
 @media screen and (min-width: 850px) and (max-width:950px) {
    
     img.weird-pics {
@@ -711,9 +733,7 @@ img.sitelogo {
         flex-direction: column;
       
     }
-    .home-ctas .inner .cta-blocks li a span {
-        font-size: 14px;
-    }
+   
     .home-ctas .inner {
         width: 88%;
         margin-left: 86px;
@@ -730,6 +750,13 @@ img.sitelogo {
         width: 88%;
         margin-left: 86px;
     }
+    .home-ctas .inner .cta-blocks li a span {
+        font-size: 24px;
+    }
+    .pagination {
+        margin-right: -85px;
+        
+    }
 }
 
 @media screen and (min-width:1101px) and (max-width:1200px) {
@@ -741,6 +768,12 @@ img.sitelogo {
     .home-ctas .inner {
         width: 88%;
         margin-left: 86px;
+    }
+    .pagination {
+        margin-right: -85px;   
+    }
+    .home-ctas .inner .cta-blocks li a span {
+        font-size: 24px;
     }
 }
 
