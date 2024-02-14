@@ -281,9 +281,9 @@ img.sitelogo {
 }
 
 .blue-banner {
-    top: 54%;
+    top: 53%;
     margin-top: -60px;
-    height: 50px;
+    height: 58px;
     padding: 5px;
     position: absolute;
     background-color: #244AC2;
@@ -301,7 +301,7 @@ img.sitelogo {
     height: 58px;
     width: 219px;
     position: absolute;
-    top: 46.6%;
+    top: 45.4%;
     right: 21px;
 }
 
@@ -665,26 +665,264 @@ img.sitelogo {
     img.next {
         width: 40px;
     }
-    
-    
-  
+ 
 }
 @media only screen and (min-width: 400px) and (max-width: 400px) {
    .next {
     margin: left -48px;
    }
  }
+ @media only screen and (min-width: 401px) and (max-width: 450px) {
+    .next {
+     margin: left -20px;
+     width:20px;
+    }
+  }
+
+
+@media only screen and (max-width: 460px)  {
+    .next {
+        
+        margin-left: -36px;
+    }
+    .black-banner{
+        display:none;
+    }
+    .inside{
+        display:flex;
+        flex-direction: column;
+        margin-left: 32px;
+    }
+    .blue-banner {
+        width: 67%;
+        font-size: 14px;
+        padding-left: 9px;
+    }
+    img.weird-pics {
+        margin-left: 13px;
+        width: 269px;
+    }
+    .home-intro .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-intro .inner p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    img.weird-pics {
+        width: 340px;
+    }
+    .black-banner {
+        display: none;
+    }
+
+    .slider {
+        width: 567px;
+        margin-left: -112px;
+    }
+
+    .pagination span {
+        display: none;
+    }
+
+    .blue-banner {
+        display: block;
+        width: 315px;
+        font-size: 12px;
+        padding-left: 23px;
+        margin-left: -5px;
+    }
+    
+    .home-ctas .inner .cta-blocks {
+        margin-bottom: 20px;
+    }
+
+    .home-ctas .inner .cta-blocks li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cta-blocks span {
+        padding-top: 20px;
+    }
+
+    .home-ctas .inner .cta-blocks li a {
+        padding: 81px 0;
+        text-align: center;
+    }
+
+    .home-ctas .inner .sub-links {
+        margin-top: 20px;
+    }
+    .li span  {
+     margin-top:20px;
+    }
+    .home-ctas .inner .sub-links li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .home-ctas .inner .sub-links {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .menuthingie{
+        margin-left: 32px;
+        margin-top: 50px;
+        width: 26px;
+    }
+    img.sitelogo{
+        margin-left: 21px;
+        width: 89px;
+    }
+    img.next {
+        width: 40px;
+    }
+  }
+
+
+
+
+
+  @media only screen and (min-width: 450px) and (max-width: 460px) {
+    .next {
+        width: 40px;
+        margin-left: -36px;
+    }
+    .black-banner{
+        display:none;
+    }
+    .inside{
+        display:flex;
+        flex-direction: column;
+        margin-left: 32px;
+    }
+    .blue-banner {
+        width: 67%;
+        font-size: 14px;
+        padding-left: 9px;
+    }
+    img.weird-pics {
+        margin-left: 13px;
+        width: 269px;
+    }
+    .home-intro .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-intro .inner p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    img.weird-pics {
+        width: 340px;
+    }
+    .black-banner {
+        display: none;
+    }
+
+    .slider {
+        width: 567px;
+        margin-left: -112px;
+    }
+
+    .pagination span {
+        display: none;
+    }
+
+    .blue-banner {
+        display: block;
+        width: 315px;
+        font-size: 12px;
+        padding-left: 23px;
+        margin-left: -5px;
+    }
+    
+    .home-ctas .inner .cta-blocks {
+        margin-bottom: 20px;
+    }
+
+    .home-ctas .inner .cta-blocks li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cta-blocks span {
+        padding-top: 20px;
+    }
+
+    .home-ctas .inner .cta-blocks li a {
+        padding: 81px 0;
+        text-align: center;
+    }
+
+    .home-ctas .inner .sub-links {
+        margin-top: 20px;
+    }
+    .li span  {
+     margin-top:20px;
+    }
+    .home-ctas .inner .sub-links li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .home-ctas .inner .sub-links {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .menuthingie{
+        margin-left: 32px;
+        margin-top: 50px;
+        width: 26px;
+    }
+    img.sitelogo{
+        margin-left: 21px;
+        width: 89px;
+    }
+    img.next {
+        width: 40px;
+    }
+  }
 @media only screen and (min-width:320px) and (max-width:320px) {
     .next{
         margin: left -50px;
     }
 }
-
+@media only screen and (min-width:800px) and (max-width:850px){
+    .next{
+        width:40px;
+        margin-left:-20px;
+    }
+    img.weird-pics {
+        margin-left:2px
+    }
+    .inside{
+        display:flex;
+        flex-direction: column;
+    }
+  
+    .black-banner {
+        display: none;
+    } 
+    img.logobutton{
+        margin-top:40%;
+    }  
+}
 
 
 
 @media screen and (min-width: 950px) and (max-width:1100px) {
-   
+    
     img.weird-pics {
         margin-top: 32px;
         margin-left: 10%;
@@ -694,16 +932,38 @@ img.sitelogo {
       
     }
     .home-ctas .inner .cta-blocks li a span {
-        font-size: 14px;
+        font-size: 24px;
     }
     .home-ctas .inner {
         width: 88%;
         margin-left: 86px;
     }
 }
+@media screen and (min-width:780px){
+    .inside {
+        display: flex;
+        flex-direction: column;
+    }
+    .next{
+        margin-left:-20px;
+        width:50px;
+    }
+    .pagination {
+        margin-right: -85px;
+        
+    }
+    
+    img.weird-pics {
+        margin-top: 32px;
+        margin-left: 10%;
+    }
+    .home-ctas .inner .cta-blocks li a span {
+        font-size: 24px;
+    }
+}
 @media screen and (min-width:857px) and (max-width:860px) {
-    .inside{
-        display:flex;
+    .inside {
+        display: flex;
         flex-direction: column;
     }
     /*this one */
@@ -733,7 +993,10 @@ img.sitelogo {
         flex-direction: column;
       
     }
-   
+    .inside {
+        display: flex;
+        flex-direction: column;
+    }
     .home-ctas .inner {
         width: 88%;
         margin-left: 86px;
