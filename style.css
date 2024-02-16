@@ -546,7 +546,7 @@ img.sitelogo {
     } 
 
 }
-@media screen and (min-width: 300px) and (max-width:320px)  {
+@media screen and (min-width: 320px) and (max-width:350px)  {
     .home-ctas .inner {
         padding: 0 10px;
     }
@@ -593,7 +593,7 @@ img.sitelogo {
 
     .blue-banner {
         display: block;
-        width: 315px;
+        
         font-size: 12px;
         padding-left: 23px;
         margin-left: -5px;
@@ -671,62 +671,17 @@ img.sitelogo {
     } 
 
 }
+/* @media only screen and (min-width:37) */
 /**/
-@media only screen and (min-width: 401px) and (max-width: 450px){
+@media screen and (min-width: 401px) and (max-width: 450px){
     .slider {
         margin-left: -32%;
-    width: 150%;
+        width: 180%;
     }
     .next{
         width: 40px;    
     }
-     /*.inside {
-        display: flex;
-        flex-direction: column;
-        margin-left: 38px;
-        width: 88%;
-    }
-    img.weird-pics{
-        margin-left: -1%;
-        width: 93%;
-    }
     
-    .home-ctas .inner .sub-links li {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .home-ctas .inner .sub-links {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        margin-top: 111%;
-    }
-    .home-ctas .inner {
-        padding: 0 10px;
-    }
-
-    .home-intro .inner {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .home-ctas .inner .cta-blocks {
-        display: flex;
-        padding: 0;
-        height: 200px;
-        flex-direction: column;
-        width:321%;
-    }
-    .pagination {
-        display:none;
-    }
-    .home-ctas .inner .cta-blocks li a{
-        width:50%;
-    } */
-
-    /**/
     .home-ctas .inner {
         padding: 0 10px;
     }
@@ -1271,7 +1226,7 @@ img.sitelogo {
     } */
     .slider {
         margin-left: -27%;
-        width: 139%;
+        width: 143%;
     }
     .pagination span {
         display: none;
@@ -1573,6 +1528,15 @@ img.sitelogo {
 
   
 }
+@media only screen and (min-width:400px) and (max-width:470px){
+    .slider {
+        width: 152%;
+        margin-left: -128px;
+    }
+    .next{
+        margin-left:-10px;
+    }
+}
 @media only screen and (min-width:501px) and (max-width:599px) {
     .next {
         width: 40px;
@@ -1741,18 +1705,19 @@ img.sitelogo {
     }
 }
 
-@media screen and  (max-width:799px) {
-    .inside {
-        display: flex;
-        flex-direction: column;
-    }
+@media screen and  (min-width:799px) {
+  
 
     .menuthingie {
         width: 29px;
         margin-top: 43px;
     }
+    .black-banner{
+        display:none;
+     }
 }
-/*849 789*/
+
+
 @media screen and (min-width:799px) and (max-width:849px)  {
     .home-ctas .inner .cta-blocks {
         width: 93.5%;
@@ -1782,6 +1747,15 @@ img.sitelogo {
     }
    .blue-banner {
     margin-left:-0px;
+   }
+}
+@media screen and (min-width:849px) and (max-width:1060px){
+   .slider {
+    width: 119%;
+    margin-left: -112px;
+   }
+   .blue-banner {
+    margin-left:-4px;
    }
 }
 @media screen and (min-width:789px) and (max-width:849px)  {
@@ -2720,13 +2694,13 @@ img.sitelogo {
     }
 
     .home-ctas .inner .cta-blocks {
-        width: 91.5%;
-        margin-left: 73px;
+        width: 100%;
+    margin-left: 16px;
     }
 
     .home-ctas .inner .sub-links {
-        width: 91.2%;
-        margin-left: 72px;
+        width: 100%;
+        margin-left: 16px;
     }
 
     .home-ctas .inner {
@@ -2762,6 +2736,28 @@ img.sitelogo {
     margin-top:10px;
    }
 } */
+@media screen and (min-width: 850px) and (max-width:1061px){
+    .home-ctas .inner .cta-blocks {
+        width: 91.5%;
+        margin-left: 73px;
+    }
+
+    .home-ctas .inner .sub-links {
+        width: 91.2%;
+        margin-left: 72px;
+    }
+}
+@media screen and (min-width:850px) {
+    .home-ctas .inner .cta-blocks {
+        width:100%;
+        margin-left: -73px;
+    }
+
+    .home-ctas .inner .sub-links {
+        width: 100%;
+        margin-left: -72px;
+    }
+}
 @media screen and (min-width: 1400px) and (max-width:1440px) {
     img.weird-pics {
         margin-right: 10px;
@@ -2807,18 +2803,18 @@ img.sitelogo {
 
 @media screen and (min-width:1438px) {
     .home-ctas .inner .cta-blocks {
-        width: 91.5%;
-        margin-left: 73px;
+        width: 109.6%;
+        margin-left: -70px;
     }
 
     .home-ctas .inner .sub-links {
-        width: 101.6%;
-        margin-left: -11px;
+        width: 109.6%;
+        margin-left: -70px;
     }
 
     .home-ctas .inner .cta-blocks {
-        width: 101.6%;
-        margin-left: -11px;
+        width: 109.6%;
+        margin-left: -70px;
     }
 
     .next {
