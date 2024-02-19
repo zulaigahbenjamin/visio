@@ -96,14 +96,16 @@
 
 .inside {
     display: flex;
-    width: 76%;
-    margin-left: 113px;
+    width: 78%;
+    margin-left: 53px;
     font-size: 24px;
 }
 
 img.weird-pics {
-    margin-left: 41%;
+    margin-left: 45%;
     margin-top: 32px;
+    width: 574px;
+    margin-right: -138px;
 }
 
 
@@ -2240,7 +2242,7 @@ img.sitelogo {
 
     img.weird-pics {
         margin-left: 13px;
-        width: 89%;
+        
     }
     .next {
         margin-left: -40px;
