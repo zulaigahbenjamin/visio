@@ -668,6 +668,7 @@ img.sitelogo {
 
     img.next {
         width: 40px;
+        margin-left: 3px;
     } 
 
 }
@@ -1169,7 +1170,7 @@ img.sitelogo {
         margin-left:20px;
     }
     .slider {
-        width:478px;
+        width:580px;
     }
 }
 @media only screen and (min-width: 471px) and (max-width: 481px) {
@@ -1797,7 +1798,10 @@ img.sitelogo {
     .home-ctas .inner .cta-blocks {
         margin-bottom: 20px;
     }
-
+    img.weird-pics {
+        margin-left: 13px;
+        width: 89%;
+    }
     .home-ctas .inner .cta-blocks li {
         width: 32%;
         margin-bottom: 20px;
@@ -1862,6 +1866,7 @@ img.sitelogo {
     .black-banner{
         display:none;
     }
+
    
 }
 @media screen and (min-width:600px) and (max-width:620px)  {
@@ -2233,7 +2238,10 @@ img.sitelogo {
 
 @media screen and (min-width:749px) {
 
-  
+    img.weird-pics {
+        margin-left: 13px;
+        width: 89%;
+    }
     .next {
         margin-left: -40px;
     }
@@ -2738,24 +2746,24 @@ img.sitelogo {
 } */
 @media screen and (min-width: 850px) and (max-width:1061px){
     .home-ctas .inner .cta-blocks {
-        width: 91.5%;
-        margin-left: 73px;
+        width: 116%;
+        margin-left: -92px;
     }
 
     .home-ctas .inner .sub-links {
-        width: 91.2%;
-        margin-left: 72px;
+        width: 116%;
+    margin-left: -92px;
     }
 }
 @media screen and (min-width:850px) {
     .home-ctas .inner .cta-blocks {
-        width:100%;
-        margin-left: -73px;
+        width: 116%;
+        margin-left: -92px;
     }
 
     .home-ctas .inner .sub-links {
-        width: 100%;
-        margin-left: -72px;
+        width: 116%;
+        margin-left: -92px;
     }
 }
 @media screen and (min-width: 1400px) and (max-width:1440px) {
