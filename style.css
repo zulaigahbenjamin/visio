@@ -1147,11 +1147,10 @@ section {
 /* Col - Sec */
 .col-sec {
     display: grid;
-    grid-template-columns: 24.3% 24.3% 24.3%;
+    grid-template-columns: 25.3% 25.3% 25.3%;
     grid-template-rows: auto auto;
     justify-content: center;
-    gap: 5rem;
-    left: 0 !important;
+    gap: 3rem;
 }
 
 .box-1 {
